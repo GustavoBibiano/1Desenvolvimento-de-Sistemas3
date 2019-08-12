@@ -30,7 +30,7 @@ $(document).on("click","#codigo",function()
   cordova.plugins.barcodeScanner.scan(
       function (result) {
          if(result.text == 280720550) {
-           $(location).attr("href","pedroguinha157.html");
+           $(location).attr("href","Ex1.html");
          }
       },
       function (error) {
