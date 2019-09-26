@@ -20,25 +20,58 @@
         <div class="container">
           <div class="row">
             <div class="col-xs-12">
-              <h1> Primeiro APP</h1>
+              <h1> Filtros</h1>
             </div>
           </div>
           <div class="row">
-            <div class="col-xs-12">
-              <div class="form-group">
-              <button id="alerta" class="btn btn-primary btn-block">Criar Alerta</button>
-              </div>
-            </div>
-            <div class="col-xs-12">
-              <div class="form-group">
-              <button id="vibrar" class="btn btn-primary btn-block">Vibrar</button>
-              </div>
-            </div>
              <div class="col-xs-12">
               <div class="form-group">
-              <button id="codigo" class="btn btn-primary btn-block">QR COD</button>
+              <button id="camera" class="btn btn-primary btn-block">Camera</button>
+              <img class="img-responsive" id="imagem">
               </div>
-            </div>
+            </div><br>
+
+            <br><br>
+                <div class="container">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <label for="escala_cinza">Escala de cinza</label>
+                  <input type="range" id="escala_cinza" value="50">
+                  </div>
+                </div>
+              </div>
+              <br>
+
+               <div class="container">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <label for="blur">Desfoque:</label>
+                      <input type="range" id="blur" value="50">
+                  </div>
+                </div>
+              </div><br>
+
+              <div class="container">
+                 <div class="row">
+                   <div class="col-xs-12">
+                      <label for="opacidade">Opacidade:</label>
+                  <input type="range" id="opacidade"  min="0" max="100" value="50">
+                  </div>
+                </div>
+              </div><br>
+
+               <div class="container">
+                 <div class="row">
+                  <div class="col-xs-12">
+                    <label for="saturacao">Saturação:</label>
+                  <input type="range" id="saturacao" min="0" max="100" value="50">
+                </div>
+              </div>
+            </div><br>
+    
+             
+
+            
           </div>
          </div>
         
